@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тюнинг ателье</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS файла -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="active">Главная</a>
+            <a href="indexokleyka.html">Оклейка автомобилей</a>
+            <a href="indexdetaling.html">Детейлинг автомобилей</a>
+            <a href="#gallery">Галерея работ</a>
+        </nav>
+        <div class="menu-icon">
+            <img src="foto/Group6@1x.png" alt="Меню"> <!-- Замените на вашу картинку меню -->
+        </div>
+    </header>
+
+    <section class="hero" id="main">
+        <h1>Тюнинг Ателье</h1>
+        <p>Индивидуальность в каждой детали – твой стиль, наш тюнинг!</p>
+        <button onclick="scrollToServices()">Наши услуги</button>
+    </section>
+
+    <section class="info">
+        <div class="info-block">
+            <h1>Адрес:</h1>
+            <p>Ул.Пионерская 23/1</p>
+            <p>Ул. Ленина 167</p>
+        </div>
+        <div class="info-block">
+            <h1>Телефон:</h1>
+            <p>+7 (924) 778 50 24</p>
+            <p>+7 (123) 456-78-90</p>
+        </div>
+        <div class="info-block">
+            <h1>Режим работы:</h1>
+            <p>Пн-Пт 9:00 - 20:00</p>
+            <p>Сб-Вс 9:00 - 17:00</p>
+        </div>
+    </section>
+
+    <section class="achievements">
+        <div class="achievements-content">
+            <div class="achievements-text">
+                <h2>НАШИ ДОСТИЖЕНИЯ ОТ КУБКА РОССИИ ДО ЧЕМПИОНАТОВ МИРА</h2>
+                <p>
+                    Мы гордимся тем, что наши работы покоряют сердца автолюбителей и профессионалов по всему миру.
+                    Начиная с локальных
+                    соревнований в России, где наши проекты неоднократно занимали призовые места, мы вышли на
+                    международный уровень. Сегодня
+                    автомобили, тюнингованные в нашем ателье, становятся победителями престижных мировых чемпионатов.
+                    <br><br>
+                    Каждый проект — это не просто работа, это искусство, вдохновение и стремление к совершенству. Мы
+                    создаем не просто
+                    автомобили, мы создаем легенды. <br><br>
+                    Доверьтесь профессионалам, которые знают, как сделать ваш автомобиль непревзойденным.
+                </p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-column first-column">
+                    <div class="achievement-item">
+                        <span class="achievement-number">#1</span>
+                        <span class="achievement-text">Победители чемпионата России по тюнингу 2022 года</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-number">#3</span>
+                        <span class="achievement-text">Призеры на лучшее ателье по оклейке автомобилей 2021 года</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-number">#1</span>
+                        <span class="achievement-text">Золотая медаль на международной выставке Auto Tuning Expo
+                            2023</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-number">#4</span>
+                        <span class="achievement-text">Создание уникального проекта для чемпионата мира по дрифту</span>
+                    </div>
+                </div>
+                <div class="achievement-column second-column">
+                    <div class="achievement-item">
+                        <span class="achievement-number">#5</span>
+                        <span class="achievement-text">Участники номинации "Лучший дизайн интерьера автомобиля" 2022 года</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-number">#1</span>
+                        <span class="achievement-text">Победители в номинации "Инновации в тюнинге" 2023 года</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-number">#6</span>
+                        <span class="achievement-text">Сотрудничество с мировыми автопроизводителями</span>
+                    </div>
+                    <div class="achievement-item">
+                        <span class="achievement-number"><img class="imgf" src="foto/free-icon-trophy-2784439.png" alt=""></span>
+                        <span class="achievement-text">Более 1000 довольных клиентов по всему миру</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция слайдера -->
+    <section class="gallery-slider">
+        <div class="slider">
+            <div class="slides">
+                <div class="slide active">
+                    <img class="imgavto" src="foto/Rectangle 45.png" alt="Тюнингованный автомобиль 1">
+                    <p>Победители чемпионата России по тюнингу 2022 года</p>
+                </div>
+                <div class="slide">
+                    <img  class="imgavto" src="foto/Rectangle 47.png" alt="Тюнингованный автомобиль 2">
+                    <p>Участники международной выставки Auto Tuning Expo 2023 в Токио</p>
+                </div>
+                <div class="slide">
+                    <img  class="imgavto" src="foto/Rectangle 49.png" alt="Тюнингованный автомобиль 3">
+                    <p>Победители в номинации "Лучший интерьер" на Moscow Tuning Show 2021</p>
+                </div>
+                <div class="slide">
+                    <img  class="imgavto" src="foto/car1.jpg" alt="Тюнингованный автомобиль 4">
+                    <p>Лучший проект в номинации "Аэродинамика" на чемпионате Европы по тюнингу 2021</p>
+                </div>
+                <div class="slide">
+                    <img class="imgavto" src="foto/car2.jpg" alt="Тюнингованный автомобиль 4">
+                    <p>Золотая медаль за лучший детейлинг на выставке Detailing World Championship 2022</p>
+                </div>
+                <div class="slide">
+                    <img class="imgavto" src="foto/car3.jpeg" alt="Тюнингованный автомобиль 4">
+                    <p>Участники чемпионата мира по кастомному тюнингу в Лас-Вегасе 2023</p>
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button> <!-- Стрелка влево -->
+            <button class="next" onclick="nextSlide()">&#10095;</button> <!-- Стрелка вправо -->
+        </div>
+    </section>
+
+    <script>
+        // Скрипт для слайдера
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        // Автопрокрутка слайдера (опционально)
+        setInterval(nextSlide, 10000);
+
+        // Функция для прокрутки к услугам
+        function scrollToServices() {
+                document.getElementById('our-services').scrollIntoView({ behavior: 'smooth' });
+            }
+    </script>
+
+    <!-- Секция с преимуществами и фотографией -->
+    <section class="advantages">
+        <div class="advantages-content">
+            <div class="advantages-list">
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <img class="imfserv" src="foto/cont3.png" alt="">
+                        <h3>Материалы от лучших компаний</h3>
+                    </div>
+                    <p>Мы используем только качественные материалы от проверенных мировых производителей, таких как 3M, Avery Dennison, Hexis,
+                    и KPMF, чтобы ваш автомобиль выглядел идеально.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <img class="imfserv" src="foto/cont2.png" alt="">
+                        <h3>Опытные мастера</h3>
+                    </div>
+                    <p>Наши специалисты имеют многолетний опыт работы в сфере тюнинга и детейлинга, гарантируя
+                        профессиональный подход к каждому проекту.</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-header">
+                        <img class="imfserv" src="foto/cont1.png" alt="">
+                        <h3>Гарантия на все виды работ</h3>
+                    </div>
+                    <p>Мы уверены в качестве наших услуг и предоставляем гарантию на все выполненные работы.</p>
+                </div>
+            </div>
+            <div class="advantages-image">
+                <img src="foto/Rectangle 52.png" alt="Пример тюнинга">
+                <p class="image-description">Тюнинг BMW M4: установка карбонового обвеса, полировка кузова и
+                    индивидуальный дизайн интерьера.</p>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Секция "Наши услуги" -->
+    <section class="our-services" id="our-services">
+        <div class="services-container">
+            <h1>НАШИ УСЛУГИ</h1>
+            <div class="tabs">
+                <button class="tab-button active" data-tab="wrapping">Оклейка</button>
+                <button class="tab-button" data-tab="detailing">Детейлинг</button>
+            </div>
+            <div class="services-grid" id="wrapping">
+                <!-- Услуги оклейки -->
+                <div class="service-item">
+                    <img src="foto/yslugi/plenka.png" alt="Защитные пленки" class="service-image">
+                    <h3>Защитные пленки</h3>
+                    <p>Защитные пленки сохраняют лакокрасочное покрытие вашего автомобиля от царапин, сколов и воздействия окружающей среды</p>
+                    <div class="additional-text">
+                        <p>Мы используем пленки премиум-класса, которые обеспечивают долговечную защиту и сохраняют внешний вид вашего автомобиля
+                        как новый. Пленки устойчивы к ультрафиолету, химическим веществам и механическим повреждениям.
+                        Бесшовная оклейка с использованием термофена для идеального прилегания, а также ручная подгонка под сложные
+                        формы кузова.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+                <div class="service-item">
+                    <img src="foto/yslugi/plenka2.png" alt="Цветные пленки" class="service-image">
+                    <h3>Цветные пленки</h3>
+                    <p>Измените внешний вид вашего автомобиля с помощью цветных виниловых пленок. Широкая палитра цветов и текстур на любой
+                    вкус</p>
+                    <div class="additional-text">
+                        <p>Наши пленки легко наносятся и снимаются, не повреждая заводское покрытие. Вы можете выбрать матовые, глянцевые,
+                        металлические или даже хамелеон-эффекты.
+                        Применение профессиональных инструментов для натяжения пленки, а также использование специальных растворов для
+                        устранения пузырьков воздуха.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+                <div class="service-item">
+                    <img src="foto/yslugi/car_painting_16785.png" alt="Дизайн" class="service-image">
+                    <h3>Дизайн</h3>
+                    <p>Создайте уникальный дизайн для вашего автомобиля с помощью индивидуальных решений от наших специалистов</p>
+                    <div class="additional-text">
+                        <p>Мы предлагаем полный цикл работ: от разработки концепции до реализации. Графика, аэрография, уникальные текстуры — все,
+                        чтобы ваш автомобиль выделялся из толпы.
+                        Использование 3D-моделирования для создания дизайна, а также ручная аэрография и печать на пленке для точной
+                        передачи деталей.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+                <div class="service-item">
+                    <img src="foto/yslugi/okleyka.png" alt="Оклейка салона" class="service-image">
+                    <h3>Оклейка салона</h3>
+                    <p>Преобразите интерьер вашего автомобиля с помощью оклейки салона. Защитите элементы салона от износа и придайте им
+                    стильный вид</p>
+                    <div class="additional-text">
+                        <p>Мы используем материалы, устойчивые к истиранию и воздействию высоких температур. Оклейка салона — это не только
+                        эстетика, но и долговечность.
+                        Точная выкройка материалов по шаблонам, а также использование специальных клеев для долговечного крепления.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+            </div>
+            <div class="services-grid" id="detailing" style="display: none;">
+                <!-- Услуги детейлинга -->
+                <div class="service-item">
+                    <img src="foto/yslugi/polirovka.png" alt="Полировка кузова" class="service-image">
+                    <h3>Полировка кузова</h3>
+                    <p>Верните вашему автомобилю идеальный блеск с помощью профессиональной полировки кузова. Удаление царапин, сколов и следов
+                    окисления</p>
+                    <div class="additional-text">
+                        <p>Мы используем современные полировальные составы и оборудование, чтобы добиться зеркального блеска. Полировка защищает
+                        кузов от коррозии и продлевает срок службы лакокрасочного покрытия.
+                        Многоэтапная полировка с использованием абразивных паст разной зернистости, а также финишная обработка воском
+                        для защиты.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+                <div class="service-item">
+                    <img src="foto/yslugi/ximchist.png" alt="Химчистка салона" class="service-image">
+                    <h3>Химчистка салона</h3>
+                    <p>Глубокая очистка салона автомобиля от загрязнений, пятен и неприятных запахов</p>
+                    <div class="additional-text">
+                        <p>Наши специалисты используют профессиональные средства, которые безопасны для всех типов материалов. Химчистка вернет
+                        вашему салону свежесть и комфорт.
+                        Применение парогенераторов для глубокой очистки, а также использование экологически чистых моющих средств.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+                <div class="service-item">
+                    <img src="foto/yslugi/zashita.png" alt="Защитное покрытие" class="service-image">
+                    <h3>Защитное покрытие</h3>
+                    <p>Защитите кузов вашего автомобиля с помощью нанокерамического покрытия. Долговечная защита от царапин, воды и грязи</p>
+                    <div class="additional-text">
+                        <p>Покрытие создает невидимый барьер, который сохраняет блеск кузова и облегчает уход за автомобилем. Эффект сохраняется до
+                        2 лет.
+                        Нанесение покрытия в несколько слоев с использованием профессиональных аппликаторов, а также полировка для
+                        идеального блеска.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+                <div class="service-item">
+                    <img src="foto/yslugi/fary.png" alt="Реставрация фар" class="service-image">
+                    <h3>Реставрация фар</h3>
+                    <p>Верните фарам вашего автомобиля прозрачность и яркость. Удаление помутнений и царапин</p>
+                    <div class="additional-text">
+                        <p>Мы используем профессиональные полировальные составы и технологии, которые восстанавливают фары до состояния новых.
+                        Улучшается не только внешний вид, но и безопасность вождения.
+                        Многоэтапная полировка с использованием паст разной зернистости, а также нанесение защитного лака для
+                        долговечности.</p>
+                    </div>
+                    <button class="details-button">Подробнее...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "О нас" -->
+    <section class="about-us">
+        <div class="about-container">
+            <!-- Картинка слева -->
+            <div class="about-image">
+                <img src="foto/Rectangle 520.png" alt="О нас">
+                <p>Mersedes-Benz: покраска кузова, обклейка защитной пленкой, реставрация фар,
+                    установка оригинальных обесов премиум из Германии.</p>
+                <img src="foto/car10.jpg" alt="О нас">
+                <p>Легендраная Nissan Silvia: в оригинальных обвесах из Японии, переделанным салоном, 
+                    покраской кузова и облееной ливреев в круг кузова</p>
+            </div>
+            <!-- Описание справа -->
+            <div class="about-description">
+                <div class="about-item">
+                    <img src="foto/yslugi/plenka.png" alt="Иконка 1" class="about-icon">
+                    <div>
+                        <h2>100% ПОЛИРОЛЬ АХЕМ</h2>
+                        <p>Мы используем только профессиональные полироли и материалы премиум-класса, чтобы вернуть вашему автомобилю идеальный
+                        блеск. Наши технологии позволяют удалить царапины, сколы и следы окисления, сохраняя при этом целостность лакокрасочного
+                        покрытия.</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <img src="foto/cont3.png" alt="Иконка 2" class="about-icon">
+                    <div>
+                        <h2>ВЫПОЛНЯЕМ РАБОТУ ЧЕТКО ПО ТЗ</h2>
+                        <p>Каждый проект начинается с детального обсуждения и составления технического задания. Мы строго следуем всем пожеланиям
+                        клиента, чтобы результат превзошел ожидания. Наши специалисты учитывают каждую деталь, чтобы работа была выполнена
+                        качественно и в срок.</p>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <img src="foto/cont2.png" alt="Иконка 3" class="about-icon">
+                    <div>
+                        <h2>У НАС ЛУЧШИЕ МАСТЕРА</h2>
+                        <p>Наша команда состоит из профессионалов с многолетним опытом работы в сфере тюнинга и детейлинга. Мы гордимся тем, что
+                        каждый мастер в нашей команде — это эксперт своего дела, который знает, как сделать ваш автомобиль идеальным.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Секция "Наши работы" -->
+    <section class="our-works">
+        <div class="works-container">
+            <h2>Наши работы</h2>
+            <div class="works-gallery">
+                <img src="foto/Group 43.png" alt="Галерея наших работ" class="gallery-image">
+            </div>
+        </div>
+    </section>
+    <section class="contact-form-section">
+        <div class="form-header">
+            <h2>ОТВЕТИМ НА ЛЮБОЙ ВОПРОС</h2>
+        </div>
+        <div class="form-wrapper">
+            <div class="form-container">
+                <div class="form-fields">
+                    <div class="name-phone">
+                        <input type="text" placeholder="ИМЯ">
+                        <input type="text" placeholder="ТЕЛЕФОН">
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://vk.com" target="_blank"><img src="foto/yslugi/free-icon-vkontakte-3536582.png" alt="VK"></a>
+                        <a href="https://instagram.com" target="_blank"><img src="foto/yslugi/free-icon-youtube-1384060.png"
+                                alt="Instagram"></a>
+                        <a href="https://telegram.org" target="_blank"><img src="foto/yslugi/free-icon-telegram-3536705.png"
+                                alt="Telegram"></a>
+                    </div>
+                    <textarea placeholder="ВОПРОС ПО ДИЗАЙНУ И ДР."></textarea>
+                </div>
+                <div class="buttonotp">
+                    <button type="submit">ОТПРАВИТЬ</button>
+                </div>
+                <div class="additional-info">
+                    <p>г.Благовещенск ул.Шимановского 46</p>
+                    <p>+7 (800) 00-46-87</p>
+                    <p>TEST@TEST.RU</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-content">
+            <p>2022 © Автомобильное ателье "LU THERMA". Все права защищены. Профессиональный тюнинг и детейлинг автомобилей.</p>
+            <div class="footer-links">
+                <a href="#">Главная</a>
+                <a href="#">Оклейка автомобилей</a>
+                <a href="#">Детейлинг автомобилей</a>
+                <a href="#">Галерея работ</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+            const detailsButtons = document.querySelectorAll('.details-button');
+
+            detailsButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const additionalText = this.previousElementSibling; // Находим предыдущий элемент (дополнительный текст)
+                    additionalText.classList.toggle('active'); // Переключаем класс active
+                });
+            });
+        });
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const servicesGrids = document.querySelectorAll('.services-grid');
+
+            tabButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Убираем активный класс у всех кнопок
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    // Добавляем активный класс текущей кнопке
+                    this.classList.add('active');
+
+                    // Скрываем все блоки с услугами
+                    servicesGrids.forEach(grid => grid.style.display = 'none');
+
+                    // Показываем выбранный блок
+                    const tabId = this.getAttribute('data-tab');
+                    document.getElementById(tabId).style.display = 'flex';
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

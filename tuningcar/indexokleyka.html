@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оклейка автомобилей</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS файла -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="indexokleyka.html" class="active">Оклейка автомобилей</a>
+            <a href="indexdetaling.html">Детейлинг автомобилей</a>
+            <a href="#gallery">Галерея работ</a>
+        </nav>
+        <div class="menu-icon">
+            <img src="foto/Group6@1x.png" alt="Меню"> <!-- Замените на вашу картинку меню -->
+        </div>
+    </header>
+
+    <section class="hero" id="main">
+        <h1>Оклейка автомобиля <br> защитными пленками</h1>
+        <p>Защити стиль, сохрани совершенство — твой автомобиль под надежной пленкой!</p>
+        <button onclick="scrollToPricing()">Цены</button> <!-- Кнопка для прокрутки -->
+    </section>
+
+    <section class="info">
+        <div class="info-block">
+            <h1>Адрес:</h1>
+            <p>Ул.Пионерская 23/1</p>
+            <p>Ул. Ленина 167</p>
+        </div>
+        <div class="info-block">
+            <h1>Телефон:</h1>
+            <p>+7 (924) 778 50 24</p>
+            <p>+7 (123) 456-78-90</p>
+        </div>
+        <div class="info-block">
+            <h1>Режим работы:</h1>
+            <p>Пн-Пт 9:00 - 20:00</p>
+            <p>Сб-Вс 9:00 - 17:00</p>
+        </div>
+    </section>
+
+    <!-- Секция с преимуществами и фотографией -->
+    <!-- Секция "Преимущества" -->
+    <section class="advantages">
+        <div class="advantages-content">
+            <!-- Левая часть: заголовок, описание и сетка картинок -->
+            <div class="advantages-left">
+                <div class="advantages-text">
+                    <h2>Полиуретановая пленка единственная надежная защита автомобиля от всех внешних воздействий</h2>
+                    <p>Полиуретановая пленка обеспечивает долговечную защиту вашего автомобиля от царапин, сколов,
+                        ультрафиолета и химических воздействий. Она сохраняет внешний вид кузова как новый, продлевая срок
+                        его службы. Мы используем только качественную продукцию от лучших компаний.</p>
+                </div>
+                <!-- Сетка картинок 2x2 -->
+                <div class="advantages-grid">
+                    <div class="grid-item">
+                        <img src="logo/hexis-seeklogo.png" alt="Защита от царапин">
+                    </div>
+                    <div class="grid-item">
+                        <img src="logo/logo_site.png" alt="Защита от сколов">
+                    </div>
+                    <div class="grid-item">
+                        <img src="logo/star-micronics-logo.png" alt="Защита от ультрафиолета">
+                    </div>
+                    <div class="grid-item">
+                        <img src="logo/voys-logo-512.png" alt="Защита от химических воздействий">
+                    </div>
+                </div>
+            </div>
+            <!-- Правая часть: картинка с описанием -->
+            <div class="advantages-image">
+                <img src="foto/bmwm4.jpg" alt="Пример тюнинга">
+                <p class="image-description">Оклейка антигравийной пленкой от компании Hexis.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Преимущества защитной антигравийной пленки" -->
+    <section class="protective-film">
+        <div class="protective-film-content">
+            <h2>ПРЕИМУЩЕСТВА ЗАЩИТНОЙ АНТИГРАВИЙНОЙ ПЛЕНКИ</h2>
+            <div class="film-grid">
+                <!-- Блок 1 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/shield.png" alt="IPSUM CORVALLIS"> <!-- Замените на вашу иконку -->
+                    <h3>Защита от сколов и царапин</h3>
+                    <p>Пленка обеспечивает надежную защиту кузова автомобиля от царапин, мелких сколов и повреждений, вызванных камнями,
+                    гравием и другими дорожными воздействиями. Ваш автомобиль сохраняет идеальный внешний вид даже в сложных условиях
+                    эксплуатации..</p>
+                </div>
+                <!-- Блок 2 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/uv-protection.png" alt="FELIS PURUS"> <!-- Замените на вашу иконку -->
+                    <h3>Устойчивость к ультрафиолету</h3>
+                    <p>Защитная пленка предотвращает выцветание лакокрасочного покрытия под воздействием солнечных лучей. Цвет вашего
+                    автомобиля остается насыщенным и ярким на протяжении многих лет.</p>
+                </div>
+                <!-- Блок 3 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/chemical-safety.png" alt="CRIM PRASSENT"> <!-- Замените на вашу иконку -->
+                    <h3>Защита от химических воздействий</h3>
+                    <p>Пленка устойчива к агрессивным химическим веществам, таким как реагенты, бензин, масла и кислоты. Это обеспечивает
+                    дополнительную защиту кузова от коррозии и повреждений.</p>
+                </div>
+                <!-- Блок 4 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/car-wash.png" alt="ALIOUAM TELLUS"> <!-- Замените на вашу иконку -->
+                    <h3>Долговечность и простота в уходе</h3>
+                    <p>Пленка отличается высокой износостойкостью и легко очищается от загрязнений. Она не требует специального ухода, что
+                    делает ее идеальным решением для защиты автомобиля.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Стоимость полной оклейки автомобиля" -->
+    <section class="pricing-section" id="pricing">
+        <div class="pricing-content">
+            <h2>СТОИМОСТЬ ПОЛНОЙ ОКЛЕЙКИ АВТОМОБИЛЯ</h2>
+            <div class="pricing-table">
+                <!-- Заголовки столбцов -->
+                <div class="table-row header">
+                    <div class="table-cell">АВТО / МАТЕРИАЛ</div>
+                    <div class="table-cell">ПЛЕНКА SPECTROLL</div>
+                    <div class="table-cell">ПЛЕНКА HEXIS</div>
+                    <div class="table-cell">ПЛЕНКА SUNTEK</div>
+                    <div class="table-cell">ПЛЕНКА LLUMAR</div>
+                </div>
+                <!-- Строки с данными -->
+                <div class="table-row">
+                    <div class="table-cell" id="class">1 КЛАСС (BMW COOPER, FIAT 500)</div>
+                    <div class="table-cell">53 000</div>
+                    <div class="table-cell">84 000</div>
+                    <div class="table-cell">69 000</div>
+                    <div class="table-cell">72 000</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell" id="class">2 КЛАСС (BMW 3, MERCEDES)</div>
+                    <div class="table-cell">53 000</div>
+                    <div class="table-cell">84 000</div>
+                    <div class="table-cell">69 000</div>
+                    <div class="table-cell">72 000</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell" id="class">4 КЛАСС (BMW 7, MERCEDES S)</div>
+                    <div class="table-cell">53 000</div>
+                    <div class="table-cell">84 000</div>
+                    <div class="table-cell">69 000</div>
+                    <div class="table-cell">72 000</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell" id="class">5 КЛАСС (BMW X3, X4, MERCEDES)</div>
+                    <div class="table-cell">53 000</div>
+                    <div class="table-cell">84 000</div>
+                    <div class="table-cell">69 000</div>
+                    <div class="table-cell">72 000</div>
+                </div>
+            </div>
+            <p>Для рассчета стоимости оклейки отдельных элементов обращайтесь к менеджерам за консультацией</p>
+        </div>
+    </section>
+
+    <!-- Секция "Наши работы" -->
+    <section class="our-works">
+        <div class="works-container">
+            <h2>Наши работы</h2>
+            <div class="works-gallery">
+                <img src="foto/Group 43.png" alt="Галерея наших работ" class="gallery-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="form-header">
+            <h2>ОТВЕТИМ НА ЛЮБОЙ ВОПРОС</h2>
+        </div>
+        <div class="form-wrapper">
+            <div class="form-container">
+                <div class="form-fields">
+                    <div class="name-phone">
+                        <input type="text" placeholder="ИМЯ">
+                        <input type="text" placeholder="ТЕЛЕФОН">
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://vk.com" target="_blank"><img src="foto/yslugi/free-icon-vkontakte-3536582.png"
+                                alt="VK"></a>
+                        <a href="https://instagram.com" target="_blank"><img
+                                src="foto/yslugi/free-icon-youtube-1384060.png" alt="Instagram"></a>
+                        <a href="https://telegram.org" target="_blank"><img
+                                src="foto/yslugi/free-icon-telegram-3536705.png" alt="Telegram"></a>
+                    </div>
+                    <textarea placeholder="ВОПРОС ПО ДИЗАЙНУ И ДР."></textarea>
+                </div>
+                <div class="buttonotp">
+                    <button type="submit">ОТПРАВИТЬ</button>
+                </div>
+                <div class="additional-info">
+                    <p>г.Благовещенск ул.Шимановского 46</p>
+                    <p>+7 (800) 00-46-87</p>
+                    <p>TEST@TEST.RU</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <p>2022 © Автомобильное ателье "LU THERMA". Все права защищены. Профессиональный тюнинг и детейлинг
+                автомобилей.</p>
+            <div class="footer-links">
+                <a href="#">Главная</a>
+                <a href="#">Оклейка автомобилей</a>
+                <a href="#">Детейлинг автомобилей</a>
+                <a href="#">Галерея работ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const detailsButtons = document.querySelectorAll('.details-button');
+
+            detailsButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const additionalText = this.previousElementSibling; // Находим предыдущий элемент (дополнительный текст)
+                    additionalText.classList.toggle('active'); // Переключаем класс active
+                });
+            });
+        });
+    </script>
+    <script>function scrollToPricing() {
+            // Находим секцию с ценами по её id
+            const pricingSection = document.getElementById('pricing');
+
+            // Плавно прокручиваем страницу к секции с ценами
+            if (pricingSection) {
+                pricingSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }</script>
+</body>
+
+</html>

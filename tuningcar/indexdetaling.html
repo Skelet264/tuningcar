@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детейлинг автомобилей</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение CSS файла -->
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="indexokleyka.html">Оклейка автомобилей</a>
+            <a href="indexdetaling.html" class="active">Детейлинг автомобилей</a>
+            <a href="#gallery">Галерея работ</a>
+        </nav>
+        <div class="menu-icon">
+            <img src="foto/Group6@1x.png" alt="Меню"> <!-- Замените на вашу картинку меню -->
+        </div>
+    </header>
+
+    <section class="hero" id="main">
+        <h1>Детейлинг автомобилей <br> Профессиональный уход</h1>
+        <p>Вернем вашему автомобилю идеальный вид и сохраним его на долгие годы!</p>
+        <button onclick="scrollToPricing()">Цены</button> <!-- Кнопка для прокрутки -->
+    </section>
+
+    <section class="info">
+        <div class="info-block">
+            <h1>Адрес:</h1>
+            <p>Ул.Пионерская 23/1</p>
+            <p>Ул. Ленина 167</p>
+        </div>
+        <div class="info-block">
+            <h1>Телефон:</h1>
+            <p>+7 (924) 778 50 24</p>
+            <p>+7 (123) 456-78-90</p>
+        </div>
+        <div class="info-block">
+            <h1>Режим работы:</h1>
+            <p>Пн-Пт 9:00 - 20:00</p>
+            <p>Сб-Вс 9:00 - 17:00</p>
+        </div>
+    </section>
+
+    <!-- Секция с преимуществами и фотографией -->
+    <!-- Секция "Преимущества" -->
+    <section class="advantages">
+        <div class="advantages-content">
+            <!-- Левая часть: заголовок, описание и сетка картинок -->
+            <div class="advantages-left">
+                <div class="advantages-text">
+                    <h2>Профессиональный детейлинг забота о каждом миллиметре вашего автомобиля</h2>
+                    <p>Детейлинг — это комплекс услуг, направленный на восстановление и поддержание идеального состояния
+                        вашего автомобиля. Мы используем только профессиональные материалы и оборудование, чтобы ваш
+                        автомобиль выглядел как новый.</p>
+                </div>
+                <!-- Сетка картинок 2x2 -->
+                <div class="advantages-grid">
+                    <div class="grid-item-op">
+                        <img src="logo/ZM.png" alt="Полировка кузова">
+                    </div>
+                    <div class="grid-item-op">
+                        <img src="logo/meauiars.png" alt="Химчистка салона">
+                    </div>
+                    <div class="grid-item-op">
+                        <img src="logo/Sonax_Nonfood-Kongress_Web.png" alt="Защитное покрытие">
+                    </div>
+                    <div class="grid-item-op">
+                        <img src="logo/turtle-wax-seeklogo.png" alt="Уход за стеклами">
+                    </div>
+                </div>
+            </div>
+            <!-- Правая часть: сетка картинок 2x2 -->
+            <div class="advantages-right">
+                <div class="advantages-grid">
+                    <div class="grid-item-primer">
+                        <img src="foto/yslugi/deteling.jpg" alt="Пример детейлинга 1">
+                    </div>
+                    <div class="grid-item">
+                        <img src="foto/yslugi/close-up-car-care-process.jpg" alt="Пример детейлинга 2">
+                    </div>
+                    <div class="grid-item">
+                        <img src="foto/yslugi/nanesenie.jpg" alt="Пример детейлинга 3">
+                    </div>
+                    <div class="grid-item">
+                        <img src="foto/Rectangle 52.png" alt="Пример детейлинга 4">
+                    </div>
+                </div>
+                <p class="image-description">Полный комплекс детейлинга: полировка кузова, химчистка салона, защитное покрытие.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Преимущества детейлинга" -->
+    <section class="protective-film">
+        <div class="protective-film-content">
+            <h2>ПРЕИМУЩЕСТВА ПРОФЕССИОНАЛЬНОГО ДЕТЕЙЛИНГА</h2>
+            <div class="film-grid">
+                <!-- Блок 1 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/headlight.png" alt="Полировка кузова">
+                    <h3>Полировка кузова</h3>
+                    <p>Удаление царапин, сколов и восстановление блеска лакокрасочного покрытия. Ваш автомобиль будет выглядеть как новый.</p>
+                </div>
+                <!-- Блок 2 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/steamer.png" alt="Химчистка салона">
+                    <h3>Химчистка салона</h3>
+                    <p>Глубокая очистка салона от загрязнений, устранение неприятных запахов и восстановление цвета материалов.</p>
+                </div>
+                <!-- Блок 3 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/paint.png" alt="Защитное покрытие">
+                    <h3>Защитное покрытие</h3>
+                    <p>Нанесение керамического покрытия для защиты кузова от царапин, сколов и воздействия окружающей среды.</p>
+                </div>
+                <!-- Блок 4 -->
+                <div class="film-item">
+                    <img src="foto/yslugi/windshield.png" alt="Уход за стеклами">
+                    <h3>Уход за стеклами</h3>
+                    <p>Очистка и защита стекол от загрязнений, воды и царапин. Идеальная видимость в любую погоду.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Стоимость услуг детейлинга" -->
+    <section class="pricing-section" id="pricing">
+        <div class="pricing-content">
+            <h2>СТОИМОСТЬ УСЛУГ ДЕТЕЙЛИНГА</h2>
+            <div class="pricing-table-detail">
+                <!-- Заголовки столбцов -->
+                <div class="table-row header">
+                    <div class="table-cell">УСЛУГА</div>
+                    <div class="table-cell">СТАНДАРТ</div>
+                    <div class="table-cell">ПРЕМИУМ</div>
+                    <div class="table-cell">VIP</div>
+                </div>
+                <!-- Строки с данными -->
+                <div class="table-row">
+                    <div class="table-cell" id="class">Полировка кузова</div>
+                    <div class="table-cell">15 000</div>
+                    <div class="table-cell">25 000</div>
+                    <div class="table-cell">35 000</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell" id="class">Химчистка салона</div>
+                    <div class="table-cell">10 000</div>
+                    <div class="table-cell">18 000</div>
+                    <div class="table-cell">28 000</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell" id="class">Защитное покрытие</div>
+                    <div class="table-cell">20 000</div>
+                    <div class="table-cell">30 000</div>
+                    <div class="table-cell">45 000</div>
+                </div>
+                <div class="table-row">
+                    <div class="table-cell" id="class">Комплексный детейлинг</div>
+                    <div class="table-cell">40 000</div>
+                    <div class="table-cell">60 000</div>
+                    <div class="table-cell">80 000</div>
+                </div>
+            </div>
+            <p>Для уточнения стоимости и записи на услуги свяжитесь с нашими менеджерами.</p>
+        </div>
+    </section>
+
+    <!-- Секция "Наши работы" -->
+    <section class="our-works">
+        <div class="works-container">
+            <h2>Наши работы</h2>
+            <div class="works-gallery">
+                <img src="foto/Group 43.png" alt="Галерея наших работ" class="gallery-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form-section">
+        <div class="form-header">
+            <h2>ОТВЕТИМ НА ЛЮБОЙ ВОПРОС</h2>
+        </div>
+        <div class="form-wrapper">
+            <div class="form-container">
+                <div class="form-fields">
+                    <div class="name-phone">
+                        <input type="text" placeholder="ИМЯ">
+                        <input type="text" placeholder="ТЕЛЕФОН">
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://vk.com" target="_blank"><img src="foto/yslugi/free-icon-vkontakte-3536582.png"
+                                alt="VK"></a>
+                        <a href="https://instagram.com" target="_blank"><img
+                                src="foto/yslugi/free-icon-youtube-1384060.png" alt="Instagram"></a>
+                        <a href="https://telegram.org" target="_blank"><img
+                                src="foto/yslugi/free-icon-telegram-3536705.png" alt="Telegram"></a>
+                    </div>
+                    <textarea placeholder="ВОПРОС ПО ДЕТЕЙЛИНГУ И ДР."></textarea>
+                </div>
+                <div class="buttonotp">
+                    <button type="submit">ОТПРАВИТЬ</button>
+                </div>
+                <div class="additional-info">
+                    <p>г.Благовещенск ул.Шимановского 46</p>
+                    <p>+7 (800) 00-46-87</p>
+                    <p>TEST@TEST.RU</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="footer-content">
+            <p>2022 © Автомобильное ателье "LU THERMA". Все права защищены. Профессиональный тюнинг и детейлинг
+                автомобилей.</p>
+            <div class="footer-links">
+                <a href="#">Главная</a>
+                <a href="#">Оклейка автомобилей</a>
+                <a href="#">Детейлинг автомобилей</a>
+                <a href="#">Галерея работ</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const detailsButtons = document.querySelectorAll('.details-button');
+
+            detailsButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const additionalText = this.previousElementSibling; // Находим предыдущий элемент (дополнительный текст)
+                    additionalText.classList.toggle('active'); // Переключаем класс active
+                });
+            });
+        });
+
+        function scrollToPricing() {
+            const pricingSection = document.getElementById('pricing');
+            if (pricingSection) {
+                pricingSection.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
+    </script>
+</body>
+
+</html>
